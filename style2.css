@@ -1,0 +1,97 @@
+
+h1{ 
+    padding: 2rem;
+    text-align: center;
+    color: gold;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px black;
+}
+h2{    
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0 5px;
+    color: white;
+    font-size: 24px;
+    text-shadow: 4px 4px 4px black;
+   
+}
+
+body {
+    background-image:url("Images/customer-banner.jpg");
+    color: black;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.6;
+    
+}
+
+.image-area {
+  
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+p{
+    text-align: center;
+    font-size: 25px;
+    font-family:'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap' ;
+    padding: 18px 0;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.highlight{
+    background-image: linear-gradient(to right , red, #f9989f , #faf096);
+    border-radius: 6px;
+    padding:3px 6px
+}
+
+.highlight2{
+    background-image: linear-gradient(to right , black, purple , pink);
+    border-radius: 6px;
+    padding:3px 6px
+}
+
+.highlight3{
+    background-image: linear-gradient(to right , white, pink , white);
+    border-radius: 6px;
+    padding:3px 6px
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+}
+
+.nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.2s;
+    cursor : pointer;
+}
+
+.nav ul li:hover {
+    background-color:gold;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+h2{
+    text-align: center;
+}
+
+body{
+    background-image: url("Images/BackgroundService.png");
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+p{
+    text-align: center;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 0px;
+}
+
+.nav ul li {
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid black;
+    transition: background-color 0.2s;
+    cursor : pointer;
+}
+
+.nav ul li:hover {
+    background-color:gold;
+}
+
+table{
+    margin:auto;
+}
+
+
+
+.color{
+    color:red;
+    text-shadow: 2px 2px 2px white;
+}

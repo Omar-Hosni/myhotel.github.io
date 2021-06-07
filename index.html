@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GOLDEN CROWN</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Golden Crown Hotel Website">
+        <link rel="icon" href="Images/crown icon.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <!--MENU BAR-->
+        <div class="w3-sidebar w3-bar-block w3-amber w3-card w3-animate-left" style="display:none;" id="leftMenu">
+            <button onclick="closeLeftMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+            <a href="index.html" class="w3-bar-item w3-button" title="GoldenCrown.com">Home</a>
+            <a href="service.html" class="w3-bar-item w3-button" title="Services Page">Service</a>
+            <a href="Contacts.html" class="w3-bar-item w3-button" title="Phone Numbers & Hotline">Contact</a>
+          </div>
+          
+          <div class="w3-black">
+            <button class="w3-button w3-amber w3-large w3-left" onclick="openLeftMenu()" title="Menu Bar">&#9776;</button>
+            <br><br><br>
+            <form>
+                <input type="text" name="search" placeholder="Search.." style="padding:5px 5px">
+                <a href="https://www.google.com/maps/place/Egypt/@26.8448223,26.3838133,6z/data=!4m13!1m7!3m6!1s0x14368976c35c36e9:0x2c45a00925c4c444!2sEgypt!3b1!8m2!3d26.820553!4d30.802498!3m4!1s0x14368976c35c36e9:0x2c45a00925c4c444!8m2!3d26.820553!4d30.802498" title="Location"><i style="font-size:24px; padding:10px 30px; color: gold;" class="fa">&#xf041;</i></a>
+                <a href="https://web.whatsapp.com/" title="Hotline Service"><i class="material-icons" style="font-size:24px; padding: 10px 40px; color:gold">local_phone</i></a>
+                
+            </form> 
+          </div>
+    
+               
+          <script>
+          function openLeftMenu() {
+            document.getElementById("leftMenu").style.display = "block";
+          }
+          
+          function closeLeftMenu() {
+            document.getElementById("leftMenu").style.display = "none";
+          }
+          
+          </script>
+        <!--END OF MENU BAR-->
+
+        <div class="wrapper">
+            <div class="image-area">
+                <div class="image-text centered-container">GOLDEN CROWN</div>
+                <button class = "btn" id = "signbutton" title="Register an account">SIGN UP</button> <br>
+                <button class=  "btn" id = "logbutton" title="Log in">LOG IN</button>
+                <h5>here you can find your comfort , GOLDEN CROWN provides varieties of rooms at all expenses, totally comfortable for indiviualls , friends and families. the payment is online so the process gets easier for the customrs as they all need to do is to check-in as they come </h5>
+            </div>
+
+<!-- START form of booking -->
+
+            <div class = "book">
+                <form class = "book-form">
+                    <div class = "form-item">
+                        <label for = "checkin-date">Check In Date: </label>
+                        <input type = "date" id = "chekin-date">
+                    </div>
+                    <div class = "form-item">
+                        <label for = "checkout-date">Check Out Date: </label>
+                        <input type = "date" id = "chekout-date">
+                    </div>
+                    <div class = "form-item">
+                        <label for = "adult">Adults: </label>
+                        <input type = "number" min = "" value = "" id = "adult" placeholder="Number of Adults">
+                    </div>
+                    <div class = "form-item">
+                        <label for = "children">Children: </label>
+                        <input type = "number" min = "" value = "" id = "children" placeholder="Number of Children">
+                    </div>
+                    <div class = "form-item">
+                        <label for = "rooms">Rooms: </label>
+                        <input type = "number" min = "" value = "" id = "rooms" placeholder="Number of Rooms">
+                    </div>
+                    <button class = "btn" id = "bookbutton" title = "Click here to book">Book Now</button>
+                </form>
+                <p>Choose which class is your booking</p>
+                <form><input type="checkbox"> VIP</form>
+                <form><input type="checkbox"> Low-Class</form>
+                <p>How did you hear about us?</p>
+                <form><input type="radio">Social Media</form>
+                <form><input type="radio">Youtube ads</form>
+                <form><input type="radio">TV ads</form>
+                <form><input type="radio">Friends/Relatives</form>
+                
+            </div>
+
+<!-- END form of booking-->
+
+            <div class="intro-text centered-container"></div>
+            <div class="services centered-container">
+                <div class="single-service">
+                    <a href="service.html" title = "Swimming pools">
+                    <img src="Images/mk.jpeg"/>
+                    </a>
+                    <p>
+                        Different sizes of pools are being served for the customers.for Adults deep swimming pools will require to be a little farther from the kids
+                    </p>
+                </div>
+                <div class="single-service">
+                    <a href="service.html" title="Luxury Room">
+                    <img src="Images/img1.jpg"/>
+                </a>
+                    <p>
+                        The luxury rooms provide large sized beds and 2 bathrooms for showering after swimming in the sea or the pools
+
+Families book this room most of the times
+                    </p>
+                </div>
+                <div class="single-service">
+                    <a href="service.html" title="Ruby Room">
+                    <img src="Images/img2.jpg"/>
+                    </a>
+                    <p>
+                        The ruby rooms target the couples that come along together for spending a little fun time, the red color of the room gives the feeling of relaxation
+                    </p>
+                </div>
+                <div class="single-service">
+                    <a href="service.html" title = "small room">
+                    <img src="Images/img3.jpg"/>
+                    </a>
+                    <p>
+                        a small room for indiviuals to stay during the time of being in the hotel
+
+                        it provies only a single bathroom and a Twin XL bed, just suitable and neat, mostly booked by indiviuals
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
